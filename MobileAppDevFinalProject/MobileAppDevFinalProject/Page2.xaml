@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppDevFinalProject.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="White" Padding="2" CornerRadius="0">
+                <StackLayout Orientation="Horizontal" Spacing="11" HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="menuBtnMain" Text="MainPage"  BorderColor="DarkOliveGreen" BorderWidth="2" Clicked="mBtnClick" TextColor="DarkOliveGreen"/>
+                    <Button x:Name="menuBtnP1" Text="Page1" BorderColor="DarkOliveGreen" BorderWidth="2"  Clicked="p1BtnClick" TextColor="DarkOliveGreen"/>
+                    <Button x:Name="menuBtnP2" Text="Page2" BorderColor="DarkOliveGreen" BorderWidth="2" TextColor="White" BackgroundColor="DarkOliveGreen"/>
+                </StackLayout>
+            </Frame>
+            <Label Text="page2"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
